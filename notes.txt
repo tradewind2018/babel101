@@ -1,0 +1,16 @@
+- Create a repository
+    git init - run the code in order to create a git repo from that directory
+- add the file to the repository and commit
+    git add file.html - 
+    git commit -m 'First Commit'
+- Check the status 
+- this command checks the status and reports that there's nothing to commit
+- meaning the repository stores the current state 
+- Git  knows that the file has changed, but these changes are not yet committed to the repo
+    git status
+- Adding the changes
+- Changes to the file has been staged. This means that git knows about the change, but it is
+not permanent until it is commited.
+    git status
+    git add file.html
+    git commit -m "haha"
