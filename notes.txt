@@ -14,3 +14,7 @@ not permanent until it is commited.
     git status
     git add file.html
     git commit -m "haha"
+
+- Add project to github
+    git remote add origin remoteAddURL
+    git push -u origin master
